@@ -10,7 +10,10 @@
     <meta content="Free Website Template" name="description">
 
     <!-- Favicon -->
-    <link href="{% static 'img/favicon.ico' %}" rel="icon">
+    <link href="{% static 'img/favicon.ico' %}" rel="icon" >
+
+    <!-- animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -137,6 +140,16 @@
 
     <!-- Template Javascript -->
     <script src="{% static 'js/main.js' %}"></script>
+
+<!-- AOS Animations -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 300,
+        duration: 800,
+
+      });
+    </script>
 </body>
 
 </html>
