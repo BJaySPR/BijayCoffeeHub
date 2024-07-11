@@ -37,8 +37,16 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'Coffee_Manage_App',
+    
 ]
+EXTERNAL_APPS =[
+    'Coffee_Manage_App',
+    'BCH_Admin',
+
+    
+    
+]
+INSTALLED_APPS.extend(EXTERNAL_APPS)
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
