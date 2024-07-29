@@ -10867,13 +10867,13 @@ a:focus {
 }
 
 .bg-register-image {
-  background: url("../img/login_coffee_bg.jpg");
+  background-image: url("../img/login_coffee_bg.jpg");
   background-position: center;
   background-size: cover;
 }
 
 .bg-password-image {
-  background: url("../img/login_coffee_bg.jpg");
+  background-image: url("../img/login_coffee_bg.jpg");
   background-position: center;
   background-size: cover;
 }
